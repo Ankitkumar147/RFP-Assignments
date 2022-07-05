@@ -13,13 +13,8 @@ public class SnakeAndLadder {
         //variable declaring starting position
         int startPosition = 0;
         int currentPosition = 0;
-        int winPosition = 100;
-        int NO_PLAY = 0;
-        int LADDER = 1;
-        int SNAKE = 2;
-
         System.out.println("The initial position of the player is :- " + startPosition);
-
+        // while cindition till current position reaches win position i.e 100.
         while  ( currentPosition < winPosition ) {
             int rollDice = (int) Math.floor(Math.random() * 10 % 6 + 1);
             int choice = (int) Math.floor(Math.random() * 10 % 3);
