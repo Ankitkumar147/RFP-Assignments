@@ -54,6 +54,6 @@ public class SnakeAndLadder {
             System.out.println("The Current position of the player is = " + currentPosition);
             diceCount++;
         }
-        System.out.println("You have rolled the dice = "+diceCount);
+        System.out.println("Congratulations !!!You took " +diceCount + " rolls to win the game.");
     }
 }
